@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rock, Paper or Scissors?</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Welcome to the game "Rock, Paper, Scissors"</h2>
+        <figure id="picHidden">
+            <img src="images/img.jpg" alt="Game picture">
+        </figure>
+        <div id="flex-container">
+            <input type="button" onclick=rock() class="playBtn rock">
+            <input type="button" onclick=paper() class="playBtn paper">
+            <input type="button" onclick=scissors() class="playBtn scissors">
+        </div>
+        <p id="p"> To start the game, click the "Start" button.<br>
+            Press "Rock", "Paper" or "Scissors" button and see if you win or lose.<br>
+            If you want to try one more time, click "Try again". Good luck!
+        </p>
+        <input type="button" onclick=start() value="Start" id="btn">
+        <div id="output"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
